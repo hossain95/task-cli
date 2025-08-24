@@ -1,8 +1,19 @@
 # 📋 Task Tracker CLI
 
-A simple **Command Line Interface (CLI)** tool to track what you need to do, what you’re currently working on, and what you’ve completed.
+A simple **Command Line Interface (CLI)** tool built with **TypeScript** and **Node.js** to track what you need to do, what you’re currently working on, and what you’ve completed.
 
 This project helps you practice **programming, working with the filesystem, handling user input, and building CLI tools**.
+
+This project is a **sample solution** for the Task Tracker project from [roadmap.sh](https://roadmap.sh/projects/task-tracker).
+
+---
+
+## 🛠️ Technology Stack
+
+* **Language:** TypeScript
+* **Runtime:** Node.js
+* **File System:** Native Node.js `fs` module for reading/writing tasks to JSON
+* **Build Tool:** TypeScript compiler (`tsc`)
 
 ---
 
@@ -66,7 +77,6 @@ Example `task.json`:
 ### 1. Clone the repository
 
 ```bash
-
 git clone https://github.com/hossain95/task-cli.git
 cd task-cli
 ```
@@ -74,21 +84,18 @@ cd task-cli
 ### 2. Install dependencies
 
 ```bash
-
 npm install
 ```
 
 ### 3. Build the project
 
 ```bash
-
 npm run build
 ```
 
 ### 4. Link globally
 
 ```bash
-
 npm link
 ```
 
@@ -101,14 +108,12 @@ Now you can run `task-cli` from anywhere in your terminal.
 Run the help command:
 
 ```bash
-
 task-cli --help
 ```
 
 ## 🧪 Example Workflow
 
 ```bash
-
 task-cli add "Learn TypeScript"
 task-cli add "Build a CLI project"
 task-cli list
